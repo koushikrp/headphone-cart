@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="/src/assets/images/logo.png" type="image/icon type" />
+		<title>Login</title>
+		<link rel="stylesheet" href="https://unit-ui.netlify.app/src/css/unit-ui.css" />
+		<link rel="stylesheet" href="../../css/header.css" />
+		<link rel="stylesheet" href="../../css/auth/auth.css" />
+	</head>
+	<body>
+		<nav class="navbar flex justify-around items-center">
+			<div class="branding flex items-center">
+				<a href="../../../index.html">
+					<h4 class="h4">HeadphoneKart</h4>
+				</a>
+				<a href="../product-listing.html">
+					<h6 class="h6">Shop</h6>
+				</a>
+			</div>
+
+			<div class="searchDiv">
+				<input class="searchInput" type="text" placeholder="Search related to headphones..." />
+				<i class="fal fa-search searchIcon"></i>
+			</div>
+
+			<ul class="flex items-center pages">
+				<a href="../cart.html" class="flex flex-col items-center">
+					<li><i class="far fa-shopping-bag"></i></li>
+					<li class="pages-title">Cart</li>
+				</a>
+				<a href="../wishlist.html" class="flex flex-col items-center">
+					<li><i class="far fa-heart"></i></li>
+					<li class="pages-title">Wishlist</li>
+				</a>
+				<a href="./login.html" class="flex flex-col items-center">
+					<li><i class="far fa-user"></i></li>
+					<li class="pages-title">Profile</li>
+				</a>
+			</ul>
+		</nav>
+		<section>
+			<div class="auth">
+				<ul class="tabs">
+					<li id="login" class="tabLinks active" onclick="openTab(event, 'login')">Login</li>
+					<li id="signup" class="tabLinks" onclick="openTab(event, 'signup')">Sign Up</li>
+				</ul>
+				<div class="auth-content">
+					<div id="login" class="content">
+						<h4 class="h4 text-center">Login</h4>
+						<div class="flex flex-col pr-32 pl-32 pb-20">
+							<label for="login">Email</label>
+							<input class="input-default" name="login" type="text" placeholder="Enter email" />
+						</div>
+						<div class="flex flex-col pr-32 pl-32">
+							<label for="login">Password</label>
+							<input class="input-default" name="login" type="password" placeholder="Enter password" />
+						</div>
+						<div class="flex flex-col items-center justify-center pt-20 pb-14">
+							<button class="btn primary-filled-btn">Login</button>
+							<button class="btn primary-outlined-btn">Logout</button>
+						</div>
+					</div>
+					<div id="signup" class="content">
+						<h4 class="h4 text-center">Sign Up</h4>
+						<div class="flex flex-col pr-32 pl-32 pb-14">
+							<label for="firstName">First name</label>
+							<input class="input-default" name="firstName" type="text" placeholder="Enter first name" />
+						</div>
+						<div class="flex flex-col pr-32 pl-32 pb-14">
+							<label for="lastName">Last name</label>
+							<input class="input-default" name="lastName" type="text" placeholder="Enter last name" />
+						</div>
+						<div class="flex flex-col pr-32 pl-32 pb-14">
+							<label for="email">Email</label>
+							<input class="input-default" name="email" type="text" placeholder="Enter email" />
+						</div>
+						<div class="flex flex-col pr-32 pl-32 pb-14">
+							<label for="password">Password</label>
+							<input class="input-default" name="password" type="password" placeholder="Enter password" />
+						</div>
+						<div class="flex justify-center pt-20 pb-14">
+							<button class="btn primary-filled-btn">Sign Up</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="../../js/auth.js"></script>
+	</body>
+</html>
