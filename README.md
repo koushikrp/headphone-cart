@@ -1,8 +1,8 @@
 # HeadphoneKart
 
-```Live Link:``` netlify link
+A One Stop E-Commerce Application for purchasing any type of Headphones.
 
-<br/>
+```Live Link:``` netlify link
 
 ## Pages:
 - Home Page
@@ -12,8 +12,6 @@
 - Cart Page
 - Login Page
 - Sign Up Page
-
-<br/>
 
 ## Contributions:
 - If you have any Suggestions/Feature Ideas/Improvements, Raise a PR. Thank You.
