@@ -17,22 +17,22 @@ A One Stop E-Commerce Application for purchasing any type of Headphones.
 ## Screenshots:
 
 -   Home Page:
-    [home](assets/images/homepage.png)
+    [home](src/assets/images/homepage.png)
 
 -   Product List and Filters:
-    [product](assets/images/product-listing.png)
+    [product](src/assets/images/product-listing.png)
 
 -   Wishlist:
-    [wishlist](assets/images/wishlist.png)
+    [wishlist](src/assets/images/wishlist.png)
 
 -   Cart:
-    [cart](assets/images/cart.png)
+    [cart](src/assets/images/cart.png)
 
 -   Login:
-    [login](assets/images/login.png)
+    [login](src/assets/images/login.png)
 
 -   Sign Up:
-    [signup](assets/images/signup.png)
+    [signup](src/assets/images/signup.png)
 
 ## Contributions:
 
